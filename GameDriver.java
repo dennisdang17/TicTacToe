@@ -93,10 +93,10 @@ public class GameDriver
 			{
 				if (player1.getSymbol()=="x")
 				{
-				System.out.println(player1.getName() + " won!");
-				player1Wins +=1;
-				player1.setWins(player1Wins);
-				player2.setLosses(player1Wins);
+					System.out.println(player1.getName() + " won!");
+					player1Wins +=1;
+					player1.setWins(player1Wins);
+					player2.setLosses(player1Wins);
 				}
 				else
 				{
@@ -110,10 +110,10 @@ public class GameDriver
 			{
 				if (player1.getSymbol()=="o")
 				{
-				System.out.println(player1.getName() + " won!");
-				player1Wins +=1;
-				player1.setWins(player1Wins);
-				player2.setLosses(player1Wins);
+					System.out.println(player1.getName() + " won!");
+					player1Wins +=1;
+					player1.setWins(player1Wins);
+					player2.setLosses(player1Wins);
 				}
 				else
 				{
