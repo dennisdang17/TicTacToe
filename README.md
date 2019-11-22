@@ -1,1 +1,2 @@
-# just a simple terminal based tictactoe game
+# TicTacToe
+Just a simple terminal based tictactoe game
